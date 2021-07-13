@@ -4,11 +4,13 @@ export default class Cell extends Component {
   constructor(props) {
     super();
     this.state = {
-      color: value,
+      color: this.props.color,
     };
   }
 
   render() {
-    return <div id="cell" style={{ backgroundColor: this.state.color }}></div>;
+    return (
+      <div className="cell" style={{ backgroundColor: this.state.color }}></div>
+    );
   }
 }
