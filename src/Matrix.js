@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { pattern2 } from "./data.js";
+import Cell from "./Cell.js";
 
 export default class Matrix extends Component {
   genRow = (vals) => {
-    return vals.map((val) => <Cell color={value} />); // replace me and render a cell component instead!
+    console.log(vals);
+    return vals.map((val) => <Cell value={val} />); // replace me and render a cell component instead!
   };
 
   genMatrix = () => {

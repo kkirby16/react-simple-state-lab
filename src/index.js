@@ -10,7 +10,6 @@ import Cell from "./Cell.js";
 ReactDOM.render(
   <div>
     <Matrix values={pattern1} values2={pattern2} />
-    <Cell color={value} />
   </div>,
   document.getElementById("root")
 );

@@ -243,5 +243,3 @@ export var pattern2 = [
     "#F00",
   ],
 ];
-
-export var value = "#FFF";
